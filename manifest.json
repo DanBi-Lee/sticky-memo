@@ -1,0 +1,13 @@
+{
+  "dir": "ltr",
+  "lang": "ko",
+  "name": "sticky-memo",
+  "short_name": "sticky-memo",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "/",
+  "background_color": "transparent",
+  "theme_color": "transparent",
+  "orientation": "any",
+  "prefer_related_applications": false
+}
