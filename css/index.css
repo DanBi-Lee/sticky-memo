@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+@import url('reset.css');
+
+body,
+button {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content : center;
+	height: 100vh;
+	width: 100%;
+}
+header > h1 {
+	display: flex;
+	flex-direction: column;
+	color: #828282;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.4477777;
+	margin: 0px auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h1 strong {
+	display: inline-block;
+	margin-top: 4px;
+	font-weight: 700;
+	font-size: 40px;
+	color: #f2994a;
+}
+
+#authorize_button {
+	color: #ffffff;
+	background-color: #f2994a;
+	padding: 18px 119px 19px;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+#signout_button {
+	color: #f2994a;
+	background: transparent;
+	padding: 18px 46px 19px;
+	border-radius: 10px;
+	border: 2px solid;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#new-memo-btn {
+	color: #fff;
+	background-color: #f2994a;
+	padding: 18px 46px 19px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 700;
+	border: none;
+}
+
+.hiding {
+	display: none;
+}
+
+.memo {
+	border-radius: 10px;
+	background-color: #fff3ca;
+	margin: 1em;
+	padding: 34px;
+	position: relative;
+}
+
+.memo button {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	background-color: #fff;
+	color: #eb5757;
+	border-radius: 4px;
+	border: none;
+	padding: 5px 24px;
+	font-size: 14px;
+	font-weight: 500;
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.2);
+}
+
+.head-button {
+	display: flex;
+	justify-content: space-between;
+	margin: 3em 1em;
+}

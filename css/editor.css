@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap');
+@import url('reset.css');
+
+body,
+button {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#editor {
+	padding: 20px;
+	background-color: #fff3ca;
+}
+
+.toastui-editor-defaultUI {
+     border: 1px solid #bdbdbd;
+ }
+
+.toastui-editor-main .toastui-editor-md-splitter {
+	background-color : #bdbdbd;
+}
+
+.toastui-editor-defaultUI-toolbar {
+	border-bottom : 1px solid #bdbdbd;
+}
+
+.toastui-editor-mode-switch {
+	border-top :  1px solid #bdbdbd;
+}
+
+.toastui-editor-mode-switch .tab-item {
+	border : 1px solid #bdbdbd;
+}

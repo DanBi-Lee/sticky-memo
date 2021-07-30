@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css"
+		/>
+
+		<script
+			async
+			defer
+			src="https://apis.google.com/js/api.js"
+			onload="this.onload=function(){};handleClientLoad()"
+			onreadystatechange="if (this.readyState === 'complete') this.onload()"
+		></script>
+
+		<link rel="stylesheet" href="css/index.css" />
+		<title>Google Sheets API Quickstart</title>
+		<meta charset="utf-8" />
+	</head>
+	<body class="center">
+		<header>
+			<h1>
+				구글 시트로 만드는 <br />
+				<strong>sticky memo</strong>
+			</h1>
+			<div class="head-button">
+				<button id="authorize_button" style="display: none;">구글 로그인</button>
+				<button id="new-memo-btn" class="hiding">새 메모</button>
+				<button id="signout_button" style="display: none;">로그아웃</button>
+			</div>
+		</header>
+
+		<!--Add buttons to initiate auth sequence and sign out-->
+
+		<pre id="content" style="white-space: pre-wrap;"></pre>
+
+		<div class="memos-container"></div>
+
+		<script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
